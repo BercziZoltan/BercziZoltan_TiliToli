@@ -24,5 +24,35 @@ namespace TiliToli
         {
             InitializeComponent();
         }
+        int[] allas = { 1, 2, 3, 4, 5, 6, 7, 8, 0 };
+        int[] kesz = { 1, 2, 3, 4, 5, 6, 7, 8, 0 };
+
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+            Button ezGomb = sender as Button;
+            Button nullaGomb = (Button)FindName("nullaGomb");
+
+            var fTav = Math.Abs(ezGomb.Margin.Top - nullaGomb.Margin.Top);
+            var vTav = Math.Abs(ezGomb.Margin.Left - nullaGomb.Margin.Left);
+
+            int ezGombFelirat = int.Parse(ezGomb.Content.ToString());
+            int ezGombIndex = Array.IndexOf(allas, ezGombFelirat);
+            int nullaGombIndex = Array.IndexOf(allas, 0);
+
+            if ((fTav == 480 && vTav == 0) || (vTav == 455 && fTav == 0))
+            {
+                var seged = ezGomb.Margin;
+                ezGomb.Margin = nullaGomb.Margin;
+                nullaGomb.Margin = seged;
+
+                allas[nullaGombIndex] = allas[ezGombFelirat];
+                allas[ezGombFelirat] = 0;
+
+                if (allas.SequenceEqual(kesz))
+                {
+                    
+                }
+            }
+        }
     }
 }

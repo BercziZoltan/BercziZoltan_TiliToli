@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TiliToli"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Berczi_Zoltan_TiliToli" Height="480" Width="455">
     <Grid>
-        
+        <Button Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="150" Margin="-3,0,0,0" Click="Button1_Click"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="147,0,0,0" VerticalAlignment="Top" Width="150" Height="150"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="297,0,-50,0" VerticalAlignment="Top" Width="150" Height="150"/>
+        <Button Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="150" Margin="-3,150,0,0"/>
+        <Button Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="150" Margin="147,150,0,0"/>
+        <Button Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="150" Margin="297,150,0,0"/>
+        <Button Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="150" Margin="-3,300,0,-1"/>
+        <Button Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="150" Margin="147,300,0,-1"/>
+        <Button Content="0" Name="nullaGomb"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="150" Margin="297,299,0,0"/>
     </Grid>
 </Window>
