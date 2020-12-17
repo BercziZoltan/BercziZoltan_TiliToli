@@ -50,7 +50,7 @@ namespace TiliToli
 
                 if (allas.SequenceEqual(kesz))
                 {
-                    
+                    Console.WriteLine("Sikerült!");
                 }
             }
         }

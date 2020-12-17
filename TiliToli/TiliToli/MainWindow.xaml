@@ -6,15 +6,18 @@
         xmlns:local="clr-namespace:TiliToli"
         mc:Ignorable="d"
         Title="Berczi_Zoltan_TiliToli" Height="480" Width="455">
-    <Grid>
-        <Button Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="150" Margin="-3,0,0,0" Click="Button1_Click"/>
-        <Button Content="2" HorizontalAlignment="Left" Margin="147,0,0,0" VerticalAlignment="Top" Width="150" Height="150"/>
-        <Button Content="3" HorizontalAlignment="Left" Margin="297,0,-50,0" VerticalAlignment="Top" Width="150" Height="150"/>
-        <Button Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="150" Margin="-3,150,0,0"/>
-        <Button Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="150" Margin="147,150,0,0"/>
-        <Button Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="150" Margin="297,150,0,0"/>
-        <Button Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="150" Margin="-3,300,0,-1"/>
-        <Button Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="150" Margin="147,300,0,-1"/>
-        <Button Content="0" Name="nullaGomb"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="150" Margin="297,299,0,0"/>
+    <Grid RenderTransformOrigin="0.224,0.931" HorizontalAlignment="Right" Width="447" Background="#FF9B5F5F">
+        <Button Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="129" Height="97" Margin="25,78,0,0" Background="#FFF0F04D" FontFamily="Algerian" FontWeight="Bold" FontSize="30"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="160,78,0,0" VerticalAlignment="Top" Width="130" Height="97" Background="#FFF0F04D" FontFamily="Algerian" FontWeight="Bold" FontSize="30"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="296,78,0,0" VerticalAlignment="Top" Width="129" Height="97" Background="#FFF0F04D" FontFamily="Algerian" FontWeight="Bold" FontSize="30"/>
+        <Button Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="129" Height="96" Margin="25,180,0,0" Background="#FFF0F04D" FontFamily="Algerian" FontWeight="Bold" FontSize="30"/>
+        <Button Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="130" Height="96" Margin="160,180,0,0" Background="#FFF0F04D" FontFamily="Algerian" FontWeight="Bold" FontSize="30"/>
+        <Button Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Width="129" Height="96" Margin="296,180,0,0" Background="#FFF0F04D" FontFamily="Algerian" FontWeight="Bold" FontSize="30"/>
+        <Button Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Width="129" Height="97" Margin="25,281,0,0" Background="#FFF0F04D" FontFamily="Algerian" FontWeight="Bold" FontSize="30"/>
+        <Button Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Width="130" Height="97" Margin="160,281,0,0" Background="#FFF0F04D" FontFamily="Algerian" FontWeight="Bold" FontSize="30"/>
+        <Button Content="0" Name="nullaGomb"  HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="129" Height="97" Margin="296,0,0,71" Background="#FFF0F04D" FontFamily="Algerian" FontWeight="Bold" FontSize="30" Visibility="Hidden"/>
+        <Label Content="Lépésid száma:" HorizontalAlignment="Left" Height="43" Margin="79,396,0,0" VerticalAlignment="Top" Width="161" Background="#FFFFC605" FontSize="20"/>
+        <ListBox x:Name="lista" HorizontalAlignment="Left" Height="43" Margin="240,396,0,0" VerticalAlignment="Top" Width="74"/>
+        <Button Content="Játék" HorizontalAlignment="Left" VerticalAlignment="Top" Width="130" Margin="160,10,0,0" Height="47" Click="Button1_Click" Background="#FFFFC605" FontSize="24"/>
     </Grid>
 </Window>
