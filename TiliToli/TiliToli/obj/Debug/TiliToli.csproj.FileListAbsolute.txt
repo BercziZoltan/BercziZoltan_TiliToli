@@ -13,3 +13,5 @@ C:\Users\Zoli\Documents\GitHub\TiliToli\TiliToli\TiliToli\obj\Debug\TiliToli.csp
 C:\Users\Zoli\Documents\GitHub\TiliToli\TiliToli\TiliToli\obj\Debug\TiliToli.csproj.CoreCompileInputs.cache
 C:\Users\Zoli\Documents\GitHub\TiliToli\TiliToli\TiliToli\obj\Debug\TiliToli.exe
 C:\Users\Zoli\Documents\GitHub\TiliToli\TiliToli\TiliToli\obj\Debug\TiliToli.pdb
+C:\Users\Zoli\Documents\GitHub\TiliToli\TiliToli\TiliToli\obj\Debug\Page1.g.cs
+C:\Users\Zoli\Documents\GitHub\TiliToli\TiliToli\TiliToli\obj\Debug\Page1.baml

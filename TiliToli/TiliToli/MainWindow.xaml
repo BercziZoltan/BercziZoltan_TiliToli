@@ -5,19 +5,89 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TiliToli"
         mc:Ignorable="d"
-        Title="Berczi_Zoltan_TiliToli" Height="480" Width="455">
-    <Grid RenderTransformOrigin="0.224,0.931" HorizontalAlignment="Right" Width="447" Background="#FF9B5F5F">
-        <Button Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="129" Height="97" Margin="25,78,0,0" Background="#FFF0F04D" FontFamily="Algerian" FontWeight="Bold" FontSize="30"/>
-        <Button Content="2" HorizontalAlignment="Left" Margin="160,78,0,0" VerticalAlignment="Top" Width="130" Height="97" Background="#FFF0F04D" FontFamily="Algerian" FontWeight="Bold" FontSize="30"/>
-        <Button Content="3" HorizontalAlignment="Left" Margin="296,78,0,0" VerticalAlignment="Top" Width="129" Height="97" Background="#FFF0F04D" FontFamily="Algerian" FontWeight="Bold" FontSize="30"/>
-        <Button Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="129" Height="96" Margin="25,180,0,0" Background="#FFF0F04D" FontFamily="Algerian" FontWeight="Bold" FontSize="30"/>
-        <Button Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="130" Height="96" Margin="160,180,0,0" Background="#FFF0F04D" FontFamily="Algerian" FontWeight="Bold" FontSize="30"/>
-        <Button Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Width="129" Height="96" Margin="296,180,0,0" Background="#FFF0F04D" FontFamily="Algerian" FontWeight="Bold" FontSize="30"/>
-        <Button Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Width="129" Height="97" Margin="25,281,0,0" Background="#FFF0F04D" FontFamily="Algerian" FontWeight="Bold" FontSize="30"/>
-        <Button Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Width="130" Height="97" Margin="160,281,0,0" Background="#FFF0F04D" FontFamily="Algerian" FontWeight="Bold" FontSize="30"/>
-        <Button Content="0" Name="nullaGomb"  HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="129" Height="97" Margin="296,0,0,71" Background="#FFF0F04D" FontFamily="Algerian" FontWeight="Bold" FontSize="30" Visibility="Hidden"/>
-        <Label Content="Lépésid száma:" HorizontalAlignment="Left" Height="43" Margin="79,396,0,0" VerticalAlignment="Top" Width="161" Background="#FFFFC605" FontSize="20"/>
-        <ListBox x:Name="lista" HorizontalAlignment="Left" Height="43" Margin="240,396,0,0" VerticalAlignment="Top" Width="74"/>
-        <Button Content="Játék" HorizontalAlignment="Left" VerticalAlignment="Top" Width="130" Margin="160,10,0,0" Height="47" Click="Button1_Click" Background="#FFFFC605" FontSize="24"/>
+        Title="Berczi_Zoltan_TiliToli" Height="480" Width="460">
+    <Grid RenderTransformOrigin="0.224,0.931" HorizontalAlignment="Left" Width="447" Background="#FF9B5F5F" Margin="5,0,0,0">
+        <Button Content="1" Name="Button1" HorizontalAlignment="Left" Margin="41,120,0,0" VerticalAlignment="Top" Width="120" Height="80" FontSize="48" Click="Button1_Click" Background="#FF6C1919" BorderBrush="Black" Foreground="#FFF9F9F9" FontFamily="Algerian" FontWeight="Bold">
+            <Button.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF300707" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.OpacityMask>
+        </Button>
+        <Button Content="2" Name="Button2" HorizontalAlignment="Left" Margin="161,120,0,0" VerticalAlignment="Top" Width="120" Height="80" FontSize="48" Click="Button1_Click" Background="#FF6C1919" BorderBrush="Black" Foreground="#FFF9F9F9" FontFamily="Algerian" FontWeight="Bold">
+            <Button.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF300707" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.OpacityMask>
+        </Button>
+        <Button Content="3" x:Name="Button3" HorizontalAlignment="Left" Margin="281,120,0,0" VerticalAlignment="Top" Width="120" Height="80" FontSize="48" Click="Button1_Click" Background="#FF6C1919" BorderBrush="Black" Foreground="#FFF9F9F9" FontFamily="Algerian" FontWeight="Bold">
+            <Button.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF300707" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.OpacityMask>
+        </Button>
+        <Button Content="4" x:Name="Button4" HorizontalAlignment="Left" Margin="41,200,0,0" VerticalAlignment="Top" Width="120" Height="80" FontSize="48" Click="Button1_Click" Background="#FF6C1919" BorderBrush="Black" Foreground="#FFF9F9F9" FontFamily="Algerian" FontWeight="Bold">
+            <Button.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF300707" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.OpacityMask>
+        </Button>
+        <Button Content="5" x:Name="Button5" Margin="161,200,166,0" VerticalAlignment="Top" Height="80" FontSize="48" Click="Button1_Click" Background="#FF6C1919" BorderBrush="Black" Foreground="#FFF9F9F9" FontFamily="Algerian" FontWeight="Bold">
+            <Button.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF300707" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.OpacityMask>
+        </Button>
+        <Button Content="6" x:Name="Button6" HorizontalAlignment="Left" Margin="281,200,0,0" VerticalAlignment="Top" Width="120" Height="80" FontSize="48" Click="Button1_Click" Background="#FF6C1919" BorderBrush="Black" Foreground="#FFF9F9F9" FontFamily="Algerian" FontWeight="Bold">
+            <Button.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF300707" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.OpacityMask>
+        </Button>
+        <Button Content="7" x:Name="Button7" HorizontalAlignment="Left" Margin="41,280,0,0" VerticalAlignment="Top" Width="120" Height="80" FontSize="48" Click="Button1_Click" Background="#FF6C1919" BorderBrush="Black" Foreground="#FFF9F9F9" FontFamily="Algerian" FontWeight="Bold">
+            <Button.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF300707" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.OpacityMask>
+        </Button>
+        <Button Content="8" x:Name="Button8" HorizontalAlignment="Left" Margin="161,280,0,0" VerticalAlignment="Top" Width="120" Height="80" FontSize="48" Click="Button1_Click" Background="#FF6C1919" BorderBrush="Black" Foreground="#FFF9F9F9" FontFamily="Algerian" FontWeight="Bold">
+            <Button.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF300707" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.OpacityMask>
+        </Button>
+        <Button Content="0" x:Name="Button0" HorizontalAlignment="Left" Margin="281,280,0,0" VerticalAlignment="Top" Width="120" Height="80" FontSize="48" Click="Button1_Click" Background="#FF6C1919" BorderBrush="Black" Foreground="#FFF9F9F9" Visibility="Hidden">
+            <Button.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF300707" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.OpacityMask>
+        </Button>
+        <Button Content="Új játék" VerticalAlignment="Top" Margin="178,44,179,0" Height="35" Background="#FF0FD421" BorderBrush="Black" Foreground="White" FontFamily="Algerian" FontSize="17">
+            <Button.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.OpacityMask>
+        </Button>
+        <Label Content="Lépések száma:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,397,0,0" Width="153" FontFamily="Algerian" FontSize="17" Background="#FF0FD421" Foreground="White" BorderBrush="Black"/>
+        <ListBox HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="64" Margin="178,397,0,0" FontFamily="Algerian" FontSize="15" Foreground="White" Background="#FF0FD421" BorderBrush="{x:Null}"/>
     </Grid>
 </Window>

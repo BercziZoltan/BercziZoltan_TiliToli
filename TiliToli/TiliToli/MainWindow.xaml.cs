@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace TiliToli
 {
     /// <summary>
@@ -26,11 +27,10 @@ namespace TiliToli
         }
         int[] allas = { 1, 2, 3, 4, 5, 6, 7, 8, 0 };
         int[] kesz = { 1, 2, 3, 4, 5, 6, 7, 8, 0 };
-
         private void Button1_Click(object sender, RoutedEventArgs e)
         {
             Button ezGomb = sender as Button;
-            Button nullaGomb = (Button)FindName("nullaGomb");
+            Button nullaGomb = (Button)FindName("Button0");
 
             var fTav = Math.Abs(ezGomb.Margin.Top - nullaGomb.Margin.Top);
             var vTav = Math.Abs(ezGomb.Margin.Left - nullaGomb.Margin.Left);
@@ -39,7 +39,7 @@ namespace TiliToli
             int ezGombIndex = Array.IndexOf(allas, ezGombFelirat);
             int nullaGombIndex = Array.IndexOf(allas, 0);
 
-            if ((fTav == 480 && vTav == 0) || (vTav == 455 && fTav == 0))
+            if ((fTav == 120 && vTav == 0) || (vTav == 80 && fTav == 0))
             {
                 var seged = ezGomb.Margin;
                 ezGomb.Margin = nullaGomb.Margin;
@@ -50,7 +50,7 @@ namespace TiliToli
 
                 if (allas.SequenceEqual(kesz))
                 {
-                    Console.WriteLine("Sikerült!");
+                    
                 }
             }
         }
